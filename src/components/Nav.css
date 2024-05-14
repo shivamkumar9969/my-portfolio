@@ -1,0 +1,32 @@
+.nav-name {
+  font-family: "Dancing Script", cursive;
+  color: rgb(215, 215, 244);
+
+
+}
+
+.nav-custom {
+  font-family: "";
+}
+
+.res{
+  font-family: ""; 
+}
+
+
+
+
+.active {
+  position: relative;
+  color: #2c2c2c
+}
+
+.active-line {
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: rgb(255, 255, 255);
+}
+
