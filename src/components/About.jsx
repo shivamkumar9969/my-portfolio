@@ -7,7 +7,7 @@ const About = React.forwardRef((props, ref) => {
   useEffect(() => {
     const intervalId = setInterval(() => {
       setActiveLink((prevActiveLink) => (prevActiveLink + 1) % 5);
-    }, 3000);
+    }, 2000);
 
     return () => clearInterval(intervalId);
   }, []);
@@ -44,7 +44,7 @@ const About = React.forwardRef((props, ref) => {
           <h1 className="text-4xl from-neutral-900">Hello, I'm</h1>
           <h1 className="text-6xl from-neutral-900">Shivam Kumar</h1>
           <p className="text-2xl mt-4 font-semibold">A Bit About Me</p>
-          <p className="whitespace-pre-line text-base font-medium  from-neutral-900 mt-3">
+          <p className="whitespace-normal md:whitespace-pre-line text-base font-medium  from-neutral-900 mt-3">
             A passionate Full-Stack and Software Developer completed a Master{"\n"} of Computer Applications with a specialization in Cloud Computing{"\n"} and DevOps. With a dynamic skill set and an insatiable curiosity, I'm{"\n"} committed to pushing the boundaries of technology.
           </p>
           <div className="social-account">

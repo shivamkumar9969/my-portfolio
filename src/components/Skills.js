@@ -17,6 +17,11 @@ import Pic15 from "../images/express-js.png";
 import Pic16 from "../images/node.png";
 import './Skills.css'
 import bgpic from "../assets/skill-bg2.jpg";
+import Next from "../images/next.png"
+import Laravel from "../images/laravel.png"
+import Ts from "../images/ts.png"
+import aws from "../images/Aws.png"
+import api from "../images/api.webp"
 
 
 const Skills = forwardRef((props, ref) => {
@@ -69,10 +74,27 @@ const Skills = forwardRef((props, ref) => {
               />
             </div>
             <div>
-              <p>Java Script</p>
+              <p>JavaScript</p>
             </div>
 
           </div>
+
+
+
+          <div className=" skill h-16 w-16 sm:md:h-20 sm:md:w-20 lg:xl:h-28  lg:xl:w-28 flex flex-col items-center justify-center rounded text-center  m-4">
+            <div>
+              <img
+                className="h-6 w-6 sm:md:h-10 sm:md:w-10 bg-cover "
+                src={Ts}
+                alt="Java Script"
+              />
+            </div>
+            <div>
+              <p>TypeScript</p>
+            </div>
+
+          </div>
+
 
 
           <div className="skill h-16 w-16 sm:md:h-20 sm:md:w-20 lg:xl:h-28  lg:xl:w-28   rounded text-center flex items-center justify-center shadow-lg  m-4">
@@ -116,11 +138,23 @@ const Skills = forwardRef((props, ref) => {
             <div>
               <img
                 className="h-6 w-6 sm:md:h-10 sm:md:w-10 bg-cover "
+                src={Next}
+                alt="Node JS"
+              />
+              <div>
+                <p>Next.js</p>
+              </div>
+            </div>
+          </div>
+          <div className="skill h-16 w-16 sm:md:h-20 sm:md:w-20 lg:xl:h-28  lg:xl:w-28   rounded text-center flex flex-col items-center justify-center shadow-lg  m-4">
+            <div>
+              <img
+                className="h-6 w-6 sm:md:h-10 sm:md:w-10 bg-cover "
                 src={Pic15}
                 alt="Node JS"
               />
               <div>
-                <p>Express JS</p>
+                <p>Express.js</p>
               </div>
             </div>
           </div>
@@ -199,6 +233,33 @@ const Skills = forwardRef((props, ref) => {
               </div>
             </div>
           </div>
+
+          <div className="skill h-16 w-16 sm:md:h-20 sm:md:w-20 lg:xl:h-28  lg:xl:w-28   rounded text-center flex items-center justify-center shadow-lg  m-4">
+            <div>
+              <img
+                className="h-6 w-6 sm:md:h-10 sm:md:w-10 bg-cover "
+                src={Laravel}
+                alt="PHP"
+              />
+              <div>
+                <p>Laravel</p>
+              </div>
+            </div>
+          </div>
+
+          <div className=" skill h-16 w-16 sm:md:h-20 sm:md:w-20 lg:xl:h-28  lg:xl:w-28   rounded text-center flex items-center justify-center shadow-lg  m-4">
+            <div>
+              <img
+                className="h-6 w-6 sm:md:h-10 sm:md:w-10 bg-cover "
+                src={api}
+                alt="api"
+              />
+              <div>
+                <p>API</p>
+              </div>
+            </div>
+          </div>
+
           <div className="skill h-16 w-16 sm:md:h-20 sm:md:w-20 lg:xl:h-28  lg:xl:w-28   rounded text-center flex items-center justify-center shadow-lg  m-4">
             <div>
               <img
@@ -221,6 +282,18 @@ const Skills = forwardRef((props, ref) => {
               />
               <div>
                 <p>Git</p>
+              </div>
+            </div>
+          </div>
+          <div className=" skill h-16 w-16 sm:md:h-20 sm:md:w-20 lg:xl:h-28  lg:xl:w-28   rounded text-center flex items-center justify-center shadow-lg  m-4">
+            <div>
+              <img
+                className="h-6 w-6 sm:md:h-10 sm:md:w-10 bg-cover "
+                src={aws}
+                alt="Git"
+              />
+              <div>
+                <p>AWS</p>
               </div>
             </div>
           </div>
