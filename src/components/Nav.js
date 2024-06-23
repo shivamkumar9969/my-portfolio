@@ -3,7 +3,7 @@ import ShivamResume from '../assets/ShivamResume.pdf';
 import './Nav.css'; 
 
 const Nav = () => {
-  const navLinks = useMemo(() => ["About", "Skills", "Project", "Contact"], []); // Initialize navLinks with useMemo
+  const navLinks = useMemo(() => ["About", "Skills", "Experience", "Project", "Contact"], []); // Initialize navLinks with useMemo
 
   const [activePage, setActivePage] = useState(navLinks[0]);
   const [isMobileNavVisible, setIsMobileNavVisible] = useState(false); // State to toggle mobile nav

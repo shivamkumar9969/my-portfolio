@@ -7,3 +7,24 @@ body {
   font-family: "Kanit", sans-serif;
 }
 
+/* Add this to your CSS file */
+.expand-collapse {
+  overflow: hidden;
+  transition: max-height 0.6s ease-in-out;
+  /* Longer duration for smoother transition */
+}
+
+.expand-collapse.collapsed {
+  max-height: 0;
+}
+
+.expand-collapse.expanded {
+  max-height: 1000px;
+  /* Ensure this value is large enough to cover the content height */
+}
+
+
+/* Try different durations like 0.8s or 1s for even smoother effects */
+.transition-max-height {
+  transition: max-height 0.8s ease-in-out;
+}

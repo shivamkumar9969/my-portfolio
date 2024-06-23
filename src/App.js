@@ -4,6 +4,7 @@ import Project from './components/Project';
 import Contact from './components/Contact.js';
 import Nav from "./components/Nav";
 import About from './components/About';
+import WorkExperience from './components/WorkExperience.js';
 
 function App() {
   
@@ -12,6 +13,7 @@ function App() {
       <Nav />
       <About/>
       <Skills/>
+      <WorkExperience />
       <Project/>
       <Contact />
     </div>
