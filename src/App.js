@@ -5,6 +5,7 @@ import Contact from './components/Contact.js';
 import Nav from "./components/Nav";
 import About from './components/About';
 import WorkExperience from './components/WorkExperience.js';
+import Footer from './components/Footer.jsx';
 
 function App() {
   
@@ -16,6 +17,7 @@ function App() {
       <WorkExperience />
       <Project/>
       <Contact />
+      <Footer />
     </div>
   );
 };
