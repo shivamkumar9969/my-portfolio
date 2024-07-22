@@ -41,9 +41,10 @@ const About = React.forwardRef((props, ref) => {
     >
       <div className="">
         <div className="details mx-14 bg-transparent text-gray">
-          <h1 className="text-4xl from-neutral-900">Hello, I'm</h1>
-          <h1 className="text-6xl from-neutral-900">Shivam Kumar</h1>
-          <p className="text-2xl mt-4 font-semibold">A Bit About Me</p>
+          <h1 className="text-4xl from-neutral-900">Welcome to My Portfolio</h1>
+          <h2 className="text-6xl from-neutral-900">I'm Shivam Kumar</h2>
+          <p className="text-2xl mt-4 font-semibold">About Me</p>
+
           <p className="whitespace-normal md:whitespace-pre-line text-base font-medium  from-neutral-900 mt-3">
             A passionate Full-Stack and Software Developer completed a Master{"\n"} of Computer Applications with a specialization in Cloud Computing{"\n"} and DevOps. With a dynamic skill set and an insatiable curiosity, I'm{"\n"} committed to pushing the boundaries of technology.
           </p>
