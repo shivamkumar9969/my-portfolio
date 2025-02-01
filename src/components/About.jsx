@@ -60,7 +60,7 @@ const About = React.forwardRef((props, ref) => {
                   icon: "fa-linkedin-in",
                 },
                 {
-                  href: "https://www.instagram.com/itz_shiv___/",
+                  href: "https://www.instagram.com/mainshivhoon_/",
                   icon: "fa-instagram",
                 },
                 {
